@@ -34,7 +34,7 @@ This project is a simple templated ReactJS website designed for social interacti
 
    Example of `firebase.js`:
 
-   ```
+   ```javascript
    import { initializeApp } from "firebase/app";
    import { getAuth } from "firebase/auth";
    import { getFirestore } from "firebase/firestore";
@@ -51,7 +51,7 @@ This project is a simple templated ReactJS website designed for social interacti
    const app = initializeApp(firebaseConfig);
    export const auth = getAuth(app);
    export const db = getFirestore(app);
-```
+   ```
 
 4. Start the Development Server. Run the following command to start the development server:
 
